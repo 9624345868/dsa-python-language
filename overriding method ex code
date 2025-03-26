@@ -1,0 +1,22 @@
+# Parent class
+class Animal:
+    def speak(self):
+        return "Some sound"
+
+# Child class
+class Dog(Animal):
+    def speak(self):
+        return "Bark"
+
+# Child class
+class Cat(Animal):
+    def speak(self):
+        return "Meow"
+
+# Creating objects
+dog = Dog()
+cat = Cat()
+
+# Calling overridden methods
+print(dog.speak())  
+print(cat.speak())  
